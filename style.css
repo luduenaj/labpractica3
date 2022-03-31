@@ -1,0 +1,66 @@
+body{
+  font-family: Helvetica, sans-serif;
+  background-color: antiquewhite;
+  text-align: center;
+}
+a{
+  font-size: 20px;
+}
+img { 
+  border-style: solid;
+  border-color: darkgray;
+  border-width: 2px;
+}
+#grid{
+    display: grid;
+    grid-template-columns:45% 55%;
+}
+#ferrariromaimg{
+    margin:0 0 1em 3em;
+}
+#descripcion{
+    margin-top: 10em;
+    margin-left: 5px;
+    text-align: left;
+     
+    font-family:'Roboto Mono', monospace;
+}
+#fabricante{
+    margin-left: 3em;
+}
+hr{
+    width: 70vw;
+}
+
+#tit-com{
+    margin-bottom: 0;
+}
+#maingrid{
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+form{
+    font-family:'Roboto Mono', monospace;
+    background-color: rgb(214, 201, 184);
+    border-radius: 2vw;
+    padding:10px 0 10px 0;
+}
+input[type="text"]{
+    margin-bottom: 1vw;
+    border-radius: 1vw;
+}
+#cajacom {
+    background-color: rgb(163, 141, 112);
+    border-radius: 2vw;
+    padding: 1vw; 
+}
+#grid1,
+#grid2,
+#grid3{
+    background-color: rgb(163, 141, 112);
+    margin: 0 25px 0 25px;
+    padding:10px 0 10px 0;
+    border-radius: 2vw;
+    font-family: 'Roboto Mono', monospace;
+}
